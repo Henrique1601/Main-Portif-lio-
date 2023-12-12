@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "DM Sans", sans-serif;
+}
+
+:root {
+  --font-size-nav: 40px;
+  --font-size-main: 22px;
+  --background-dark: rgba(39, 38, 38, 0.37);
+  --tertiary-color: #a6b1e1;
+}
+
+body {
+  background: var(--background-dark) center/cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  padding-top: 20px;
+  font-size: var(--font-size-nav);
+}
+#nav-bar a:hover {
+  color: var(--tertiary-color);
+  box-shadow: 2px 2px 0.5px black;
+  border-radius: 4px;
+}
+.Myname {
+  border: 1px solid red;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.links-pag {
+  border: 1px solid red;
+  width: auto;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  gap: 35px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#container {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  scroll-margin-top: 20rem;
+  font-size: var(--font-size-main);
+}
+.text-main-left {
+  border: 1px solid red;
+  margin-left: 400px;
+  max-width: 35rem;
+  max-height: 30rem;
+  gap: 15px;
+  flex: 1;
+}
+.second-text {
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.saiba-mais {
+  padding: 0.7rem 3rem;
+  max-width: 60px;
+  background-color: rgba(28, 28, 29, 0.61);
+  border-radius: 10px;
+}
+
+.profile-img {
+  margin-right: 400px;
+  border-radius: 50px;
+  width: 400px;
+  height: 500px;
+}
+
+#about {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  flex: 1;
+  scroll-margin-top: 20rem;
+  margin: 10px;
+  padding: 10px;
+}
+
+.Textos-about-left {
+  border: 1px solid blue;
+  margin-left: 400px;
+  max-width: 35rem;
+  padding: 10px;
+}
+.svgs-about {
+  display: flex;
+  border: 5px solid wheat;
+  gap: 20px;
+  max-width: 200px;
+}
+.resumo-right {
+  flex: 1;
+  max-width: 50rem;
+  margin-right: 400px;
+}
